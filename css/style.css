@@ -1,0 +1,101 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+
+.side-nav-menu{
+    z-index: 99;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+
+#done
+{
+    display: none;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 25px;
+    background-color: transparent;
+
+}
+
+#eye
+{
+    cursor: pointer;
+    /* color: rgb(182, 182, 182); */
+    color: #0D0D0D;
+}
+
+#eye_slash
+{
+    cursor: pointer;
+    /* color: rgb(182, 182, 182); */
+    color: #0D0D0D;
+}
+
+#eyee
+{
+    cursor: pointer;
+    /* color: rgb(182, 182, 182); */
+    color: #0D0D0D;
+}
+
+#eyee_slash
+{
+    cursor: pointer;
+    /* color: rgb(182, 182, 182); */
+    color: #0D0D0D;
+}
+
+
+
+.icon
+{
+    position: absolute;
+    top:10px;
+    right: 20px;
+    
+}
